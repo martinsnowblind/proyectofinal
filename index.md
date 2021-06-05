@@ -1,37 +1,273 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>index</title>
+    
+</head>
 
-You can use the [editor on GitHub](https://github.com/martinsnowblind/proyectofinal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- el menu con sus enlaces -->
+<div class="container">
+   <div class="row">
+       <div class="colum" style="background-color:#aaa;">
+    <header class="padre-flex">
+        <nav>
+           <ul class="scalemenu">
+                   <li><h2 class="menu"></h2></li>
+                   <ol>
+                       <li><a href="index.html"></a>Inicio</li>
+                       <li><a href="sobre mi.html"></a> Sobre mi</li>
+                       <li><a href="porfolio.html"></a> Portfolio</li>
+                       <li><a href="curriculum.html"></a> Curriculum</li>
+                       <li><a href="servicios.html"></a> Servicios</li>
+                   </ol>
+               </ul>
+        </nav>
+       </header>
+     </div>
+    </div>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<br>
 
-### Markdown
+<!-- la seccion sobre mi, la carta de precentacion -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div>
+    <div>
+        <center class="flex-container-center">
+            <br>
+            <div class="scalelogo">
+                <img src="Mi propio logo.png" width="300px" height="300px"
+            </div>
+        
+            <br>
+            <br>
+            <br>
+        </center>
+    </div>
+</div>
 
-```markdown
-Syntax highlighted code block
+<br>
+<br>
+<br>
 
-# Header 1
-## Header 2
-### Header 3
+<div class="container">
+        <div class="row">
+            <div class="colum"></div>
+            <div class="col-md-4 col-xs-6"></div>
+        </div>
+    <body class="flex-container">
 
-- Bulleted
-- List
+        <h1>Diseñador UX/UI Y Diseñador Gráfico</h1>
+    
+        <br>
+        <br>
+        <br>
+        <br>
+    
+        <h2 class="sobremi">Sobre mi</h2>
+        <br>
+        <p class="carta">
+            Mi nombre es Martin Yuraszeck más conocido como Martin Snowblind.
+    
+            Soy diseñador de experiencia y interfaces de usuario (UX / UI) y Diseñador gráfico que principalmente trabaja para pequeñas empresas y independientes.
+    
+            Portafolio en línea:
+            - Behance: Martin Snowblind 
+        </p>
+    
+        <br>
+        <br>
+        <br>
+    
+    <!-- mi experiencia -->
+    <div>
+        <h2>Experiencia</h2>
+        <br>
+        <table border="4" cellpadding="10" cellspacing="6" class="table" class="table">
+    
+            <tr class="encabezados">
+                <!--encabezados-->
+                <th>Puestos</th>
+                <th>fechas</th>
+                <th>Labores</th>
+                <th>Empresas</th>
+            </tr>
+    
+            <!--puestos-->
+            <tr>
+                <td>Diseñador Gráfico</td>
+                <td>Diseñador UX / UI</td>
+                <td>Diseñador Gráfico</td>
+                <td>Artista 3D</td>
+                <td>Fotógrafo</td>
+            </tr>
+    
+            <!--fechas-->
+            <tr>
+                <td>Enero del 2017 hasta ahora</td>
+                <td>Marzo del 2021 hasta ahora</td>
+                <td>Noviembre del 2019 hasta Marzo del 2020</td>
+                <td>Enero del 2018 hasta Septiembre del 2019</td>
+                <td>Enero del 2016 hasta Enero del 2017</td>
+            </tr>
+    
+            <!--labores-->
+            <tr>
+                <td>Me dedico principalmente al branding</td>
+                <td>Me dedico principalemnte a diseñar paginas web</td>
+                <td>Diseñe 73 señaleticas que fueron publicadas en la ciudad de Iquique</td>
+                <td>Diseñaba figuras 3D para imprimirlas</td>
+                <td>Mi labor principal fue fotografia de viajes</td>
+            </tr>
+    
+            <!--empresas-->
+            <tr>
+                <td>Freelance</td>
+                <td>Freelance</td>
+                <td>Ministerio de Obras Públicas de Chile</td>
+                <td>Ejercito de Chile</td>
+                <td>Freelance</td>
+            </tr>
+           </nav>
+        </table>
+    </div>
+        
+        <br>
+        <br>
+        <br>
+    
+        <!-- mi portfolio -->
+    
+        <h2>Parte de mi portfolio</h2>
+        <br>
+        <br>
+        <br>
+        <p>Afiche fan art para la pelicula IT</p>
+        <img src="Afiche Martin Snowblind Listo para presentar.JPG" width="333px" height="290px"
+    
+        <br>
+        <br>
+        <br>
+        <br>
 
-1. Numbered
-2. List
+        <!--Carrusel con mi portfolio-->
 
-**Bold** and _Italic_ and `Code` text
+        <div class="row">
+            <div class="colum">
+                <title>Carrusel</title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-[Link](url) and ![Image](src)
-```
+                <style>
+                .carousel-inner img {
+                  width: 100%;
+                  height: 100%;
+                }
+                </style>
+              </head>
+              <body>
+              
+              <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Interfaz Soy Sensible para Dribbble.jpg" alt="DiseñoUX" width="30px" height="30px">
+                    <div class="carousel-caption">
+                      <h3>Diseño UX/UI</h3>
+                      <p>Interfaz principal para sitio web</p>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Señaleticas.jpg" alt="Señaleticas" width="30px" height="30px">
+                    <div class="carousel-caption">
+                      <h3>Señaleticas parada de bus</h3>
+                      <p>Diseño impreso de 73 señaleticas para paradas de autobus</p>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Afiche Martin Snowblind Listo para presentar.JPG" alt="Afichepelicula" width="30px" height="30px">
+                    <div class="carousel-caption">
+                      <h3>Afiche</h3>
+                      <p>Fan art para la pelicula de IT</p>
+                    </div>   
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+                  </div>
+            </div>
+        </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        <br>
+        <br>
+        <br>
+        <br>
+    
+    <!-- el pie de pagina -->
+  
+<div class="footertotal">
+    <div class="row">
+        <div class="colum">
+            <footer class="flex-container-footer">
+                <h3>Formulario</h3>
+                <form action= "contacto.php" method="get">
+                
+                    <div class="container">
+                        <label for="texto">Nombre</label>
+                    <input type="text" placeholder="Nombre" value="" required>
+                    
+                    <br>
+                    <br>
+                    
+                    <label for="correo">Correo</label>
+                    <input type="email" placeholder="Correo electronico" value="" required>
+                    </div>
+        
+                    <br>
+                    <br>
+        
+                    <input type="submit" value="Suscribete">
+        
+                    <br>
+                    <br>
+                    <br>
+        
+                    <h3 class="mimarca">Diseñado y desarrollado por Martin Snowblind</h3>
+            </footer>
+        </div>
+    </div>
+</div>
 
-### Jekyll Themes
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script>
+            new WOW().init();
+         </script>
+    </body>
+</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/martinsnowblind/proyectofinal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
